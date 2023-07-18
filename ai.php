@@ -5,7 +5,7 @@
 
 $ch = curl_init();
 $url = 'https://api.openai.com/v1/chat/completions';
-$api_key = 'api키를 여기에 입력하세요';
+$api_key = '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';
 
 list($prompt, $old_prompt, $old_result) = explode("/////", $_POST['text']);
 
